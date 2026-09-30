@@ -1,0 +1,65 @@
+body {
+  background-color: #eaf4f8;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: #525050;
+  margin: 0;
+}
+
+header {
+  background-color: #090645;
+  color: white;
+  padding: 40px;
+}
+
+header a {
+  color: white;
+  margin: 10px;
+}
+
+main {
+  width: 80%;
+  margin: 30px auto;
+}
+
+h2 {
+  color: #045a69;
+  margin-top: 40px;
+}
+
+.assignments {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.assignments div {
+  background-color: white;
+  padding: 15px;
+}
+
+.assignments img {
+  width: 260px;
+  height: 200px;
+  object-fit: cover;
+}
+
+li {
+  list-style-position: inside;
+  margin: 20px;
+}
+
+button {
+  background-color: #090645;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #090645;
+  color: white;
+  padding: 20px;
+  margin-top: 40px;
+}
